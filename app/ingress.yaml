@@ -20,4 +20,4 @@ spec:
           service:
             name: sample-go
             port:
-              number: 8080
+              number: 9090

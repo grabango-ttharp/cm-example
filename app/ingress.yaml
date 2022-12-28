@@ -11,7 +11,7 @@ metadata:
   namespace: myns
 spec:
   rules:
-  - host: sample-go.127.0.0.1.nip.io
+  - host: tylerlocalhost.io
     http:
       paths:
       - path: /
@@ -20,4 +20,4 @@ spec:
           service:
             name: sample-go
             port:
-              number: 9090
+              number: 8080
